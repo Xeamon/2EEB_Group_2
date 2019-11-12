@@ -1,0 +1,166 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:white; 
+
+}
+
+/*Global*/
+.container{
+   width:80%; 
+   margin: auto;
+   overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* .button_1{
+    height: 38px;
+    background: green;
+    border: none;
+    padding: 0 20px 0 20px;
+    color: white;
+} */
+
+/*Header*/
+header{
+    background-color:black;
+    color:white;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand{
+    float: left;
+}
+
+header #brand h1{
+    margin: 0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: blue;
+    font-weight: bold;
+}
+
+header #smallF {
+    font-weight: bold;
+    font-size: 10px; 
+}
+
+header a:hover{
+    color:blueviolet;
+    font-weight: bold;
+}
+
+/*Showcase*/
+#showcase{
+    min-height: 400px; 
+    background:url('iron.jpg') no-repeat 0 -400px; 
+     text-align: center;
+    color:white;
+} 
+
+ #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+} 
+
+/*newsletter*/
+
+/* #newsletter {
+    padding: 15px;
+    color: white;
+    background:skyblue;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float:right;
+    margin: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+} 
+
+/*logos*/
+
+ #Logos {
+    margin-top: 20px;
+}
+
+#Logos .logo{
+    float: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#Logos .logo img {
+    width: 500px;
+} */
+
+/*hover*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+  }
+    
+    /* Position the tooltip */
+    /* position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  } 
+
+/*Footer*/
+
